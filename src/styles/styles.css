@@ -1,6 +1,7 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600;700&family=Poppins&display=swap');
 :root {
   /* dark shades of primary color*/
   --clr-primary-1: hsl(205, 86%, 17%);
@@ -42,6 +43,11 @@
   --fixed-width: 620px;
 }
 
+
+.background{
+ background-color: rgb(253, 254, 234);
+ padding: 1em;
+}
 
 *,
 ::after,
@@ -132,6 +138,11 @@ p {
   width: 90vw;
   margin: 0 auto;
   max-width: var(--max-width);
+}
+.section-title{
+  font-family: 'Courier New', Courier, monospace;
+  margin:0 8em ;
+  text-align: center;
 }
 
 @media screen and (min-width: 992px) {
@@ -273,6 +284,7 @@ nav {
   display: flex;
   justify-content: space-between;
   position: relative;
+  background: transparent;
 }
 
 .menu .menu-content::after {
@@ -288,7 +300,7 @@ nav {
 
 .menu .menu-content a {
   padding-right: 10px;
-  background: #fff;
+  background: rgb(253, 254, 234);
   position: relative;
   z-index: 3;
   font-weight: 700;
@@ -296,7 +308,7 @@ nav {
 }
 
 .menu .menu-content span {
-  background: #fff;
+  background:rgb(253, 254, 234);
   position: relative;
   z-index: 3;
   padding: 0 10px;
@@ -308,4 +320,10 @@ nav {
   font-size: 14px;
   font-family: "Comic Neue", sans-serif;
   color: #948c81;
+}
+
+.Cmn{
+  padding: auto 0;
+  font-family: 'Poppins';
+  color: #601c0c;
 }
