@@ -4,6 +4,7 @@ import SupportAgentIcon from "@mui/icons-material/SupportAgent";
 import MailIcon from "@mui/icons-material/Mail";
 import CallIcon from "@mui/icons-material/Call";
 import pic from '../images/qr.jpeg'
+
 import {
   Box,
   Paper,
@@ -21,6 +22,7 @@ const Contact = () => {
   
   return (
     <Layout>
+      
       <Box sx={{ my: 5, ml: 10, "& h4": { fontWeight: "bold", mb: 2 , fontFamily: "Dancing Script, cursive", } }}>
         <Typography variant="h4">Contact Us</Typography>
         <p>
@@ -77,6 +79,7 @@ const Contact = () => {
         Pay Us At
         </h2>
         <img src={pic} alt="" height={300} float="right" width={200}/>
+        
     </Layout>
   );
 };
