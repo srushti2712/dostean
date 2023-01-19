@@ -1,6 +1,12 @@
 import React from "react";
 import InstagramIcon from "@mui/icons-material/Instagram";
 import TwitterIcon from "@mui/icons-material/Twitter";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import {
+  faFacebook,
+  faTwitter,
+  faInstagram
+} from "@fortawesome/free-brands-svg-icons";
 // import GitHubIcon from "@mui/icons-material/GitHub";
 import YouTubeIcon from "@mui/icons-material/YouTube";
 import { Box, Typography } from "@mui/material";
@@ -26,7 +32,10 @@ const Footer = () => {
           }}
         >
           {/* icons */}
-          <InstagramIcon />
+          <a href="https://www.instagram.com/dostean_surat/?igshid=YmMyMTA2M2Y%3D"
+        className="instagram social">
+        <FontAwesomeIcon icon={faInstagram} size="2x" color="bisque"/>
+      </a>
           <TwitterIcon />
           <YouTubeIcon />
         </Box>
