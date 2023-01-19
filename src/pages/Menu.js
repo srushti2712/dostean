@@ -18,18 +18,18 @@ const Menu = () => {
   return (
     <Layout> <h3>
       <section id="menu" className="menu">
-        <div className="container">
+        <div className="container background">
 
 
           <div className="section-title justify-content-center" >
             <h2>Check our tasty <span>Menu</span></h2>
           </div>
 
-          <div className="row">
+          {/* <div className="row">
             <div className="col-lg-12 d-flex justify-content-center">
               <ul id="menu-flters">
                 <li data-filter="*" className="filter-active">Show All</li>
-                <li data-filter=".filter-bevarages" onClick={handleClick} href="#Bevarages">Bevarages</li>
+                <li data-filter=".filter-bevarages" onClick={handleClick} >Bevarages</li>
                 <li data-filter=".filter-continental">Continental</li>
                 <li data-filter=".filter-chinese">Chinese</li>
                 <li data-filter=".filter-soups">Soups</li>
@@ -48,14 +48,101 @@ const Menu = () => {
 
               </ul>
             </div>
-          </div>
+          </div> */}
 
           <div className="row menu-container">
 
 
+            <div className="col-lg-6 menu-item filter-bevarages">
+              <h3 className='Cmn '>Mocktails</h3>
+              <div className="menu-content">
+                <a href="#Bevarages">Classic Mojito</a><span>Rs. 119</span>
+              </div>
+              <div className="menu-ingredients">
+                All time favourite refreshment drink.
+              </div>
 
 
-            <h3 className='Cmn'>Shakes</h3>
+              <div className="col-lg-6 menu-item filter-bevarages">
+                <div className="menu-content">
+                  <a href="#">WaterMelon Mojito</a><span>Rs. 119</span>
+                </div>
+                <div className="menu-ingredients">
+                  Refreshment and Tummy Cooler comes together.
+                </div>
+              </div>
+              <div className="col-lg-6 menu-item filter-bevarages">
+                <div className="menu-content">
+                  <a href="#">Orange Mojito</a><span>Rs. 119</span>
+                </div>
+                <div className="menu-ingredients">
+                  Tangy Flavour of Orange along with Mint.
+                </div>
+              </div>
+              <div className="col-lg-6 menu-item filter-bevarages">
+                <div className="menu-content">
+                  <a href="#">Berry Lemonade</a><span>Rs. 159</span>
+                </div>
+                <div className="menu-ingredients">
+                  Craneberry flavour and lemonade combo.
+                </div>
+              </div>
+
+              <div className="col-lg-6 menu-item filter-bevarages">
+                <div className="menu-content">
+                  <a href="#">Chilli Orange</a><span>Rs. 159</span>
+                </div>
+                <div className="menu-ingredients">
+                  Needs Spicy Touch lets try it.
+                </div>
+              </div>
+              <div className="col-lg-6 menu-item filter-bevarages">
+                <div className="menu-content">
+                  <a href="#">Beer Mocktail</a><span>Rs. 209</span>
+                </div>
+                <div className="menu-ingredients">
+                  Non-Alcoholic drink beer flavoured.
+                </div>
+              </div>
+              <div className="col-lg-6 menu-item filter-bevarages">
+                <div className="menu-content">
+                  <a href="#">Kala Khatta</a><span>Rs. 119</span>
+                </div>
+                <div className="menu-ingredients">
+                  Original kala khatta with a twist of mocktail.
+                </div>
+              </div>
+              <div className="col-lg-6 menu-item filter-bevarages">
+                <div className="menu-content">
+                  <a href="#">Masala Lemonade</a><span>Rs. 119</span>
+                </div>
+                <div className="menu-ingredients">
+                  Refreshing lemonade.
+                </div>
+              </div>
+
+              <div className="col-lg-6 menu-item filter-bevarages">
+                <div className="menu-content">
+                  <a href="#">Kaccha Aam</a><span>Rs. 119</span>
+                </div>
+                <div className="menu-ingredients">
+                  Raw mango flavor on cool mocktail.
+                </div>
+              </div>
+
+              <div className="col-lg-6 menu-item filter-bevarages">
+                <div className="menu-content">
+                  <a href="#">Imli</a><span>Rs. 119</span>
+                </div>
+                <div className="menu-ingredients">
+                  Bacpan ki yaado ke saath.
+                </div>
+              </div> </div>
+
+
+            <br />
+
+            <h3 className='Cmn' >Shakes</h3>
 
             <div className="col-lg-6 menu-item filter-bevarages">
               <div className="menu-content">
@@ -90,39 +177,43 @@ const Menu = () => {
                 <a href="#">Rose Faluda</a><span>Rs. 199</span>
               </div>
             </div>
-
+            <br />
 
             <div className="col-lg-6 menu-item filter-bevarages">
-              <h5 className='tea'>Tea</h5>
+
+              <h3 className='Cmn'>Tea</h3>
               <div className="menu-content">
                 <a href="#">Make your own tea</a><span>Rs. 30/45</span>
               </div>
-            </div>
 
 
-            <div className="col-lg-6 menu-item filter-bevarages">
-              <div className="menu-content">
-                <a href="#">Sukun Wali Chai</a><span>Rs. 30/45</span>
+
+              <div className="col-lg-6 menu-item filter-bevarages">
+                <div className="menu-content">
+                  <a href="#">Sukun Wali Chai</a><span>Rs. 30/45</span>
+                </div>
+              </div>
+
+
+              <div className="col-lg-6 menu-item filter-bevarages">
+                <div className="menu-content">
+                  <a href="#">Chocolate Chai</a><span>Rs. 50</span>
+                </div>
+              </div>
+
+
+              <div className="col-lg-6 menu-item filter-bevarages">
+                <div className="menu-content">
+                  <a href="#">Green Tea</a><span>Rs. 65</span>
+                </div>
               </div>
             </div>
 
 
-            <div className="col-lg-6 menu-item filter-bevarages">
-              <div className="menu-content">
-                <a href="#">Chocolate Chai</a><span>Rs. 50</span>
-              </div>
-            </div>
-
+            <br />
 
             <div className="col-lg-6 menu-item filter-bevarages">
-              <div className="menu-content">
-                <a href="#">Green Tea</a><span>Rs. 65</span>
-              </div>
-            </div>
-
-
-            <div className="col-lg-6 menu-item filter-bevarages">
-              <h5 className='coffee'>Hot Coffee</h5>
+              <h3 className='coffee headings'>Hot Coffee</h3>
               <div className="menu-content">
                 <a href="#">Black Coffee</a><span>Rs. 35</span>
               </div>
@@ -154,9 +245,9 @@ const Menu = () => {
               </div>
             </div>
 
-
+            <br />
             <div className="col-lg-6 menu-item filter-bevarages">
-              <h5 className='drinks'>Beverages</h5>
+              <h3 className='Cmn' >Beverages</h3>
               <div className="menu-content">
                 <a href="#">Cold Drink</a><span>Rs. 38</span>
               </div>
@@ -182,9 +273,11 @@ const Menu = () => {
               </div>
             </div>
 
-
+            <br />
             <div className="col-lg-6 menu-item filter-Continental">
+              <h3 className='Cmn' >Continental</h3>
               <div className="menu-content">
+
                 <a href="#">Mexican Chilly Beans</a><span>Rs. 119</span>
               </div>
             </div>
@@ -283,8 +376,8 @@ const Menu = () => {
                 <a href="#">Herb rice with Cheese Sauce</a><span>Rs. 249</span>
               </div>
             </div>
-
-
+            <br />
+            <h3 className='Cmn' >Soup</h3>
             <div className="col-lg-6 menu-item filter- Soup ">
               <div className="menu-content">
                 <a href="#">Manchow</a><span>Rs. 99</span>
@@ -310,8 +403,8 @@ const Menu = () => {
                 <a href="#">Burnt Garlic Soup</a><span>Rs. 119</span>
               </div>
             </div>
-
-
+            <br />
+            <h3 className='Cmn' >Breads</h3>
             <div className="col-lg-6 menu-item filter- Breads ">
               <div className="menu-content">
                 <a href="#">Paneer Makhni Garlic Bread</a><span>Rs. 189</span>
@@ -354,7 +447,8 @@ const Menu = () => {
                 Vegetable balls toasted in classic sause.
               </div>
             </div>
-
+            <br />
+            <h3 className='Cmn' >Chinese</h3>
             <div className="col-lg-6 menu-item filter-chinese">
               <div className="menu-content">
                 <a href="#">Green Manchurian</a><span>Rs. 189</span>
@@ -462,7 +556,8 @@ const Menu = () => {
                 Coated Fried Paneer floated in rich gravy,
               </div>
             </div>
-
+            <br />
+            <h3 className='Cmn' >Noodles</h3>
             <div className="col-lg-6 menu-item filter-noodles">
               <div className="menu-content">
                 <a href="#">Hakka Noodles</a><span>Rs. 169</span>
@@ -489,9 +584,9 @@ const Menu = () => {
                 Spicy aromatic noodles.
               </div>
             </div>
-
+            <br />
             <div className="col-lg-6 menu-item filter-Lebanese">
-              <h5 className='lebanese'>Lebanese</h5>
+              <h3 className='lebanese'>Lebanese</h3>
               <div className="menu-content">
                 <a href="#">Hummus Platter</a><span>Rs. 319</span>
               </div>
@@ -502,9 +597,9 @@ const Menu = () => {
                 <a href="#">Falafel Platter</a><span>Rs. 339</span>
               </div>
             </div>
-
+            <br />
             <div className="col-lg-6 menu-item filter-Wrap">
-              <h5 className='wrap'>Wrap</h5>
+              <h3 className='wrap'>Wrap</h3>
               <div className="menu-content">
                 <a href="#">Healthy Veg Wrap</a><span>Rs. 179</span>
               </div>
@@ -538,9 +633,9 @@ const Menu = () => {
                 <a href="#">Falafel Pocket</a><span>Rs. 239</span>
               </div>
             </div>
-
+            <br />
+            <h3 className='Cmn' >Sandwiches and Buns</h3>
             <div className="col-lg-6 menu-item filter-Sandwiches and Buns">
-              <h5 className=' Sandwiches '> Sandwiches</h5>
               <div className="menu-content">
                 <a href="#">Classic Veg</a><span>Rs. 69</span>
               </div>
@@ -584,7 +679,6 @@ const Menu = () => {
 
 
             <div className="col-lg-6 menu-item filter-Sandwiches and Buns">
-              <h5 className=' buns '> Buns </h5>
               <div className="menu-content">
                 <a href="#">Plain Maska Bun</a><span>Rs. 29</span>
               </div>
@@ -607,9 +701,10 @@ const Menu = () => {
                 <a href="#">Tandoori Maska Bun</a><span>Rs. 48</span>
               </div>
             </div>
-
+            <br />
+            <h3 className='Cmn' >Pizza and Pasta</h3>
             <div className="col-lg-6 menu-item filter-Pizza and Pasta">
-              <h5 className=' pizza '> Pizza</h5>
+
               <div className="menu-content">
                 <a href="#">Margarita</a><span>Rs. 259</span>
               </div>
@@ -652,7 +747,6 @@ const Menu = () => {
             </div>
 
             <div className="col-lg-6 menu-item filter-Pizza and Pasta">
-              <h5 className=' pasta '> Pasta</h5>
               <div className="menu-content">
                 <a href="#">Creamy Cheese</a><span>Rs. 259</span>
               </div>
@@ -669,7 +763,8 @@ const Menu = () => {
                 <a href="#">Tomatino Basil</a><span>Rs. 249</span>
               </div>
             </div>
-
+            <br />
+            <h3 className='Cmn' >Baked Dish</h3>
             <div className="col-lg-6 menu-item filter-Baked Dish">
               <div className="menu-content">
                 <a href="#">Corn Spinach Lasagna</a><span>Rs. 269</span>
@@ -687,6 +782,8 @@ const Menu = () => {
                 <a href="#">Enchiladas</a><span>Rs. 239</span>
               </div>
             </div>
+            <br />
+            <h3 className='Cmn' >Continental Rice</h3>
             <div className="col-lg-6 menu-item filter-Continental Rice">
               <div className="menu-content">
                 <a href="#">Mexican Burrito Rice</a><span>Rs. 259</span>
@@ -722,6 +819,8 @@ const Menu = () => {
                 <a href="#">Triple Rice</a><span>Rs. 279</span>
               </div>
             </div>
+            <br />
+            <h3 className='Cmn' >Chinese Gravy</h3>
             <div className="col-lg-6 menu-item filter-Chinese Gravy">
               <div className="menu-content">
                 <a href="#">Gravy Manchurian</a><span>Rs. 199</span>
@@ -743,93 +842,6 @@ const Menu = () => {
               </div>
             </div>
 
-
-            <Mocktails />
-            <div className="col-lg-6 menu-item filter-bevarages">
-              <a id="#Bevarages" ><h3 className='Cmn'>Mocktails</h3></a>
-              <div className="menu-content">
-                <a href="#Bevarages">Classic Mojito</a><span>Rs. 119</span>
-              </div>
-              <div className="menu-ingredients">
-                All time favourite refreshment drink.
-              </div>
-
-
-              <div className="col-lg-6 menu-item filter-bevarages">
-                <div className="menu-content">
-                  <a href="#">WaterMelon Mojito</a><span>Rs. 119</span>
-                </div>
-                <div className="menu-ingredients">
-                  Refreshment and Tummy Cooler comes together.
-                </div>
-              </div>
-              <div className="col-lg-6 menu-item filter-bevarages">
-                <div className="menu-content">
-                  <a href="#">Orange Mojito</a><span>Rs. 119</span>
-                </div>
-                <div className="menu-ingredients">
-                  Tangy Flavour of Orange along with Mint.
-                </div>
-              </div>
-              <div className="col-lg-6 menu-item filter-bevarages">
-                <div className="menu-content">
-                  <a href="#">Berry Lemonade</a><span>Rs. 159</span>
-                </div>
-                <div className="menu-ingredients">
-                  Craneberry flavour and lemonade combo.
-                </div>
-              </div>
-
-              <div className="col-lg-6 menu-item filter-bevarages">
-                <div className="menu-content">
-                  <a href="#">Chilli Orange</a><span>Rs. 159</span>
-                </div>
-                <div className="menu-ingredients">
-                  Needs Spicy Touch lets try it.
-                </div>
-              </div>
-              <div className="col-lg-6 menu-item filter-bevarages">
-                <div className="menu-content">
-                  <a href="#">Beer Mocktail</a><span>Rs. 209</span>
-                </div>
-                <div className="menu-ingredients">
-                  Non-Alcoholic drink beer flavoured.
-                </div>
-              </div>
-              <div className="col-lg-6 menu-item filter-bevarages">
-                <div className="menu-content">
-                  <a href="#">Kala Khatta</a><span>Rs. 119</span>
-                </div>
-                <div className="menu-ingredients">
-                  Original kala khatta with a twist of mocktail.
-                </div>
-              </div>
-              <div className="col-lg-6 menu-item filter-bevarages">
-                <div className="menu-content">
-                  <a href="#">Masala Lemonade</a><span>Rs. 119</span>
-                </div>
-                <div className="menu-ingredients">
-                  Refreshing lemonade.
-                </div>
-              </div>
-
-              <div className="col-lg-6 menu-item filter-bevarages">
-                <div className="menu-content">
-                  <a href="#">Kaccha Aam</a><span>Rs. 119</span>
-                </div>
-                <div className="menu-ingredients">
-                  Raw mango flavor on cool mocktail.
-                </div>
-              </div>
-
-              <div className="col-lg-6 menu-item filter-bevarages">
-                <div className="menu-content">
-                  <a href="#">Imli</a><span>Rs. 119</span>
-                </div>
-                <div className="menu-ingredients">
-                  Bacpan ki yaado ke saath.
-                </div>
-              </div> </div>
 
 
 
