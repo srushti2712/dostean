@@ -5,15 +5,15 @@ import Mocktails from '../components/mocktails';
 
 
 const Menu = () => {
-  const [isShown, setIsShown] = useState(false);
+  // const [isShown, setIsShown] = useState(false);
 
-  const handleClick = event => {
-    // 👇️ toggle shown state
-    setIsShown(isShown => !isShown);
+  // const handleClick = event => {
+  //   // 👇️ toggle shown state
+  //   setIsShown(isShown => !isShown);
 
-    // 👇️ or simply set it to true
-    // setIsShown(true);
-  };
+  //   // 👇️ or simply set it to true
+  //   // setIsShown(true);
+  // };
 
   return (
     <Layout> <h3>
@@ -28,23 +28,23 @@ const Menu = () => {
           {/* <div className="row">
             <div className="col-lg-12 d-flex justify-content-center">
               <ul id="menu-flters">
-                <li data-filter="*" className="filter-active">Show All</li>
-                <li data-filter=".filter-bevarages" onClick={handleClick} >Bevarages</li>
-                <li data-filter=".filter-continental">Continental</li>
-                <li data-filter=".filter-chinese">Chinese</li>
-                <li data-filter=".filter-soups">Soups</li>
-                <li data-filter=".filter-breads">Breads</li>
-                <li data-filter=".filter-Lebanese">Lebanese</li>
-                <li data-filter=".filter-Wrap">Wraps</li>
-                <li data-filter=".filter-Sandwiches and Buns">Sandwiches and Buns</li>
-                <li data-filter=".filter-Pizza and Pasta">Pizza and Pasta</li>
-                <li data-filter=".filter-Baked dish">Baked Dish</li>
-                <li data-filter=".filter-noodles">Noodlees and Maggie</li>
-                <li data-filter=".filter-indian">Indian</li>
-                <li data-filter=".filter-Sizzler">Sizzler</li>
-                <li data-filter=".filter-salad">Salad</li>
-                <li data-filter=".filter-dessert">Dessert</li>
-                <li data-filter=".filter-accomplishment">Accomplishment</li>
+                // <li data-filter="*" className="filter-active">Show All</li>
+                // <li data-filter=".filter-bevarages" onClick={handleClick} >Bevarages</li>
+                // <li data-filter=".filter-continental">Continental</li>
+                // <li data-filter=".filter-chinese">Chinese</li>
+                // <li data-filter=".filter-soups">Soups</li>
+                // <li data-filter=".filter-breads">Breads</li>
+                // <li data-filter=".filter-Lebanese">Lebanese</li>
+                // <li data-filter=".filter-Wrap">Wraps</li>
+                // <li data-filter=".filter-Sandwiches and Buns">Sandwiches and Buns</li>
+                // <li data-filter=".filter-Pizza and Pasta">Pizza and Pasta</li>
+                // <li data-filter=".filter-Baked dish">Baked Dish</li>
+                // <li data-filter=".filter-noodles">Noodlees and Maggie</li>
+                // <li data-filter=".filter-indian">Indian</li>
+                // <li data-filter=".filter-Sizzler">Sizzler</li>
+                // <li data-filter=".filter-salad">Salad</li>
+                // <li data-filter=".filter-dessert">Dessert</li>
+                // <li data-filter=".filter-accomplishment">Accomplishment</li>
 
               </ul>
             </div>
